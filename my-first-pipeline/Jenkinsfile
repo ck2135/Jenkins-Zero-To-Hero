@@ -8,5 +8,10 @@ pipeline {
         sh 'node --version'
       }
     }
+    stage('deploy') {
+      steps {
+        sh 'echo "suucessfully completed job"'
+      }
+    }
   }
 }
